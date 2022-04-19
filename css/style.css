@@ -78,11 +78,13 @@ header {
 }
 .mensaje{
     text-align: center;
+    margin: 32px 0 0 0;
 }
 #mensaje-1{
     font-size: 24px;
     font-weight: bold;
     color: #343A40;
+    margin: 0 0 16px 0;
 }
 #mensaje-2{
     font-size: 16px;
