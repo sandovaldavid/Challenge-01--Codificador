@@ -67,5 +67,6 @@ header {
     background-color:white;
     position: relative;
     top: -100px;
+    border-radius: 32px;
 }
 
