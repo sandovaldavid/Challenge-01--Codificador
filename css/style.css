@@ -69,4 +69,6 @@ header {
     top: -100px;
     border-radius: 32px;
 }
-
+.panel-img-mensaje {
+    margin: calc((700px - 367.35px)/2) 32px;
+  }
