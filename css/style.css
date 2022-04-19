@@ -72,3 +72,7 @@ header {
 .panel-img-mensaje {
     margin: calc((700px - 367.35px)/2) 32px;
   }
+#img-munheco {
+    box-sizing: content-box;
+    width: 100%;
+}
