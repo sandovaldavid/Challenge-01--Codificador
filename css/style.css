@@ -1,5 +1,6 @@
 body {
 	margin: 1.5em 0;
+    background: #F3F5FC;
 }
 main{
     width: 1440px;
@@ -22,13 +23,21 @@ header {
 .panel-texto-boton{
     height: 100%;
     margin: 0 0 0 125px;
-    background-color: aqua;
+    background:#F3F5FC;
 }
+#texto{
+    background:#F3F5FC;
+    color: #0A3871;
+    border: 0px;
+}
+
+
 .panel-2{
     width: 30%;
     height: calc(100% + 100px);
     float: right;
-    background-color: aquamarine;
+    background-color:white;
     position: relative;
     top: -100px;
 }
+
