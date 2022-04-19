@@ -36,6 +36,8 @@ header {
 }
 .caja-botones {
     margin: 0 80px 0 0;
+    display: flex;
+    justify-content: space-between;
 }
 .panel-texto-boton p{
     font-size: 12px;
