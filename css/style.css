@@ -51,7 +51,14 @@ header {
     border-radius: 24px;
     border: 0px;
 }
-
+#encriptar{
+    background: #0A3871;
+    color: white;
+}
+#desencriptar{
+    border: 1px solid #0A3871;
+    background: transparent;
+}
 
 .panel-2{
     width: 30%;
