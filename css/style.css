@@ -21,6 +21,7 @@ header {
      float: left;
  }
 .panel-texto-boton{
+    width: calc(100% - 125px);
     height: 100%;
     margin: 0 0 0 125px;
     background:#F3F5FC;
@@ -30,6 +31,11 @@ header {
     color: #0A3871;
     border: 0px;
     font-size: 32px;
+    margin: 0 75px 0 0;
+    width: calc(100% - 85px);
+}
+.caja-botones {
+    margin: 0 80px 0 0;
 }
 .panel-texto-boton p{
     font-size: 12px;
