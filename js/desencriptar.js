@@ -1,6 +1,6 @@
 var b_desencriptar  = document.querySelector("#desencriptar");
 var b_encriptar = document.querySelector("#encriptar");
-var ta_texto = document.querySelector("texto");
+var ta_texto = document.querySelector("#texto");
 var panel_img_mensaje = document.querySelector(".panel-img-mensaje");
 var panel_2 = document.querySelector(".panel-2");
 var valor_b_desencriptar = false;
@@ -34,6 +34,7 @@ b_desencriptar.addEventListener("click", function(){
         texto_panel_2.classList.add("invisible");
         b_copiar.classList.add("invisible");
         panel_img_mensaje.classList.remove("invisible");
+        ta_texto.focus();
     });
 });
 
