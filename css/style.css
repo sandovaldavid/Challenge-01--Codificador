@@ -116,7 +116,7 @@ header {
 
 .fadeOut{
 	opacity: 0;
-	transition: 0.5s;
+	transition: 0.2s;
 }
 .datos {
     width: 100%;
