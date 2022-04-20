@@ -1,19 +1,21 @@
 body {
-	margin: 1.5em 0;
     background: #F3F5FC;
+    margin: 1.5em auto;
 }
 main{
     width: 1440px;
-    height: 600px;
+    height: 610px;
     margin: 0 auto;
-    position: relative;
-    top: 80px;
 }
 header {
-    margin: 40px 0 80px 40px;
-    display: inline;
     width: 120px;
-    height: 40px;
+    height: 48px;
+    margin: 0 0 80px 0;
+}
+#logo {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
 }
  .panel-1{
     width: 75%;
@@ -107,9 +109,17 @@ header {
     width: 336px;
     left: 12px;
     box-sizing: border-box;
+    margin: 6px 0 0 0;
+    border: 1px solid #0A3871;
+    background: transparent;
 }
 
 .fadeOut{
 	opacity: 0;
 	transition: 0.5s;
 }
+.datos {
+    width: 100%;
+    height: 100px;
+}
+   
