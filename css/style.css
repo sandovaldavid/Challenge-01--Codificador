@@ -130,7 +130,26 @@ header {
 	transition: 0.2s;
 }
 .datos {
-    width: 100%;
-    height: 100px;
+    width: 400px;
+    margin: 3em auto 0 auto;
+    padding: 0 5%;
 }
-   
+.cajas{
+    display: inline-block;
+    margin: 25px 0;
+    width: calc(90%/4 + 4px);
+    height: 50px;
+}
+.imagenes{
+    width: 30px;
+    height: 30px;
+    margin: 0 calc((100% - 30px)/2);
+}
+.nombre{
+    text-align: center;
+}
+.creador{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
