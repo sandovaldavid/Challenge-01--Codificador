@@ -108,3 +108,8 @@ header {
     left: 12px;
     box-sizing: border-box;
 }
+
+.fadeOut{
+	opacity: 0;
+	transition: 0.5s;
+}
