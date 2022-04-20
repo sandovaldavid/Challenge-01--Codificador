@@ -81,6 +81,7 @@ header {
     position: relative;
     top: -100px;
     border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 }
 .panel-img-mensaje {
     margin: calc((700px - 398.217px)/2) 32px;
@@ -160,4 +161,67 @@ header {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+}
+@media screen and (max-width:480px){
+    main{
+        width: auto;
+        height: auto;
+    }
+    .panel-1{
+        width: auto;
+        height: auto;
+        float: none;
+    }
+    #texto{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .panel-texto-boton {
+        width: 90%;
+        margin: 0 auto 50px auto;
+    }
+    .caja-botones {
+        display: block;
+        margin: 0;
+        width: auto;
+    }
+    .boton{
+        box-sizing: content-box;
+        height: auto;
+        margin: 0 auto 20px auto;
+        width: 80%;
+        display: block;
+    }
+    .panel-2{
+        width: 90%;
+        height: auto;
+        float: none;
+        position: static;
+        margin: 0 auto;
+        padding: 32px 0 32px 0;
+    }
+    .panel-img-mensaje{
+        margin: 0;
+    }
+    .texto-panel-2 {
+        height: auto;
+        padding: 0 32px;
+    }
+    #img-munheco {
+        display: none;
+    }
+    .mensaje {
+        padding: 32px;
+        margin: 0;
+    }
+    #copiar{
+        position: static;
+        box-sizing: border-box;
+        display: block;
+        margin: 32px auto 0 auto;
+    }
+    .datos{
+        width: auto;
+    }
 }
