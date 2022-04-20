@@ -17,9 +17,8 @@ b_encriptar.addEventListener("click", function(){
             construirBotonCopiar();
             valor_b_encriptar = true;
         }
-        invisible_panel_img_mensaje();
-        botonCopiar();
         Aparicion_Botones_texto_panel_2();
+        botonCopiar();
     }
 });
 
