@@ -53,6 +53,17 @@ header {
     border-radius: 24px;
     border: 0px;
 }
+.boton:hover{
+    opacity: 0.9;
+    transition: 0.2s;
+    padding: 0;
+    font-size: 26px;
+}
+.boton:active{
+    padding: 0;
+    font-size: 24px;
+    transition: 0.2s;
+}
 #encriptar{
     background: #0A3871;
     color: white;
