@@ -14,12 +14,27 @@ b_desencriptar.addEventListener("click", function(){
     document.getElementById("texto").value = "";
     if(valor_b_encriptar){
         var p = document.querySelector(".texto-panel-2");
+        var b_copiar = document.querySelector("#copiar");
+        panel_img_mensaje.classList.add("invisible");
         p.innerHTML = desencriptar_texto(texto);
+        p.classList.remove("invisible");
+        b_copiar.classList.remove("invisible");
     }else{
         panel_img_mensaje.classList.add("invisible");
         panel_2.appendChild(construir_P(desencriptar_texto(texto),"texto-panel-2"));
+        construirBotonCopiar();
         valor_b_encriptar = true;
     }
+
+    var b_copiar = document.querySelector("#copiar");
+    var texto_panel_2 = document.querySelector(".texto-panel-2");
+
+    b_copiar.addEventListener("click", function(){
+        copy(texto_panel_2);
+        texto_panel_2.classList.add("invisible");
+        b_copiar.classList.add("invisible");
+        panel_img_mensaje.classList.remove("invisible");
+    });
 });
 
 function desencriptar_texto(texto_encriptado){  
