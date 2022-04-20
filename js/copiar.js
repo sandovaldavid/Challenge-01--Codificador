@@ -14,5 +14,4 @@ function copy(texto) {
     input.select();
     document.execCommand("copy");
     input.remove();
-    panel_boton_img.appendChild(panel_img_texpanel_img_tex);
 }
