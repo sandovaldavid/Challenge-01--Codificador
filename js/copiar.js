@@ -1,3 +1,4 @@
+var ta_texto = document.querySelector("#texto");
 function construirBotonCopiar(){
     var b_copiar = document.createElement("button");
     var panel_2 = document.querySelector(".panel-2");
