@@ -15,3 +15,16 @@ function copy(texto) {
     document.execCommand("copy");
     input.remove();
 }
+
+function botonCopiar(){
+    var b_copiar = document.querySelector("#copiar");
+    var texto_panel_2 = document.querySelector(".texto-panel-2");
+
+    b_copiar.addEventListener("click", function(){
+        copy(texto_panel_2);
+        texto_panel_2.classList.add("invisible");
+        b_copiar.classList.add("invisible");
+        panel_img_mensaje.classList.remove("invisible");
+        ta_texto.focus();
+    });
+}
