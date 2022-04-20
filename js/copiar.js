@@ -22,9 +22,14 @@ function botonCopiar(){
 
     b_copiar.addEventListener("click", function(){
         copy(texto_panel_2);
-        texto_panel_2.classList.add("invisible");
-        b_copiar.classList.add("invisible");
-        panel_img_mensaje.classList.remove("invisible");
+        texto_panel_2.classList.add("fadeOut");
+        b_copiar.classList.add("fadeOut");
+        setTimeout(function(){
+            texto_panel_2.classList.add("invisible");
+            b_copiar.classList.add("invisible");
+            panel_img_mensaje.classList.remove("invisible");
+            panel_img_mensaje.classList.remove("fadeOut");
+        },200);
         ta_texto.focus();
     });
 }
