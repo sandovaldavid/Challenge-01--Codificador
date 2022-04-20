@@ -145,6 +145,14 @@ header {
     height: 30px;
     margin: 0 calc((100% - 30px)/2);
 }
+.imagenes:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.imagenes:active{
+    width: 28px;
+    height: 28px;
+}
 .nombre{
     text-align: center;
 }
