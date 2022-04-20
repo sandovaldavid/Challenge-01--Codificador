@@ -10,20 +10,22 @@ b_encriptar.addEventListener("click", function(){
 b_desencriptar.addEventListener("click", function(){
     var texto = document.getElementById("texto").value;
     document.getElementById("texto").value = "";
-    if(valor_b_encriptar){
-        var p = document.querySelector(".texto-panel-2");
-        var b_copiar = document.querySelector("#copiar");
-        p.innerHTML = desencriptar_texto(texto);
-        p.classList.remove("invisible");
-        b_copiar.classList.remove("invisible");
-    }else{
-        panel_2.appendChild(construir_P(desencriptar_texto(texto),"texto-panel-2"));
-        construirBotonCopiar();
-        valor_b_encriptar = true;
+    if(texto_vacio(texto)){
+        if(valor_b_encriptar){
+            var p = document.querySelector(".texto-panel-2");
+            var b_copiar = document.querySelector("#copiar");
+            p.innerHTML = desencriptar_texto(texto);
+            p.classList.remove("invisible");
+            b_copiar.classList.remove("invisible");
+        }else{
+            panel_2.appendChild(construir_P(desencriptar_texto(texto),"texto-panel-2"));
+            construirBotonCopiar();
+            valor_b_encriptar = true;
+        }
+        invisible_panel_img_mensaje();
+        botonCopiar();
+        Aparicion_Botones_texto_panel_2();
     }
-    invisible_panel_img_mensaje();
-    botonCopiar();
-    Aparicion_Botones_texto_panel_2();
 });
 
 function desencriptar_texto(texto_encriptado){  
