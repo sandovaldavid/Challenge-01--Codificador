@@ -102,3 +102,9 @@ header {
     overflow: auto;
     box-sizing: border-box;
 }
+#copiar {
+    position: relative;
+    width: 336px;
+    left: 12px;
+    box-sizing: border-box;
+}
