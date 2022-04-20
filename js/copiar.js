@@ -1,4 +1,5 @@
 var ta_texto = document.querySelector("#texto");
+var valor = false;
 function construirBotonCopiar(){
     var b_copiar = document.createElement("button");
     var panel_2 = document.querySelector(".panel-2");
@@ -33,4 +34,24 @@ function botonCopiar(){
         },200);
         ta_texto.focus();
     });
+    valor = true;
+}
+
+function texto_vacio(texto){
+    var b_copiar = document.querySelector("#copiar");
+    var texto_panel_2 = document.querySelector(".texto-panel-2");
+    if(texto.length > 0){
+        valor = true;
+    }else{
+        if(valor){
+            texto_panel_2.classList.add("invisible");
+            b_copiar.classList.add("invisible");
+        }
+        panel_img_mensaje.classList.remove("invisible");
+        panel_img_mensaje.classList.remove("fadeOut");
+
+        ta_texto.focus();
+        valor = false;
+    }
+    return valor;
 }
