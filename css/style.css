@@ -222,3 +222,71 @@ header {
         width: auto;
     }
 }
+
+@media screen and (min-width:480px){
+    main{
+        width: auto;
+        height: auto;
+    }
+    .panel-1{
+        width: auto;
+        height: auto;
+        float: none;
+    }
+    #texto{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .panel-texto-boton {
+        width: 90%;
+        margin: 0 auto 50px auto;
+    }
+    .caja-botones {
+        margin: 0;
+        width: auto;
+    }
+    .boton{
+        box-sizing: content-box;
+        height: auto;
+        margin: 0 auto 20px auto;
+        width: 80%;
+    }
+    #encriptar {
+        margin-right: 10px;
+    }
+    #desencriptar {
+        margin-left: 10px;
+    }
+    .panel-2{
+        width: 90%;
+        height: auto;
+        float: none;
+        position: static;
+        margin: 0 auto;
+        padding: 32px 0 32px 0;
+    }
+    .panel-img-mensaje{
+        margin: 0;
+    }
+    .texto-panel-2 {
+        height: auto;
+        padding: 0 32px;
+    }
+    #img-munheco {
+        display: none;
+    }
+    .mensaje {
+        padding: 32px;
+        margin: 0;
+    }
+    #copiar{
+        position: static;
+        box-sizing: border-box;
+        margin: 32px auto 0 auto;
+    }
+    .datos{
+        width: auto;
+    }
+
+}
