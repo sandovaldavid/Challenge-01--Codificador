@@ -110,12 +110,13 @@ header {
     font-size: 16px;
     color: #495057;
 }
+::placeholder { color: #0A3871; }
 .texto-panel-2{
     width: 100%;
     height: calc(100% - 67px - 32px);
     font-size: 24px;
     padding: 32px;
-    color: #495057;   
+    color: #0A3871;   
     overflow: auto;
     box-sizing: border-box;
 }
