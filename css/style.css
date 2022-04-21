@@ -35,7 +35,7 @@ header {
     border: 0px;
     margin: 0 75px 0 0;
     width: calc(100% - 85px);
-    overflow: scroll;
+    overflow: auto;
     resize: none;
 }
 .caja-botones {
