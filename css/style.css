@@ -46,9 +46,10 @@ header {
     display: flex;
     justify-content: space-between;
 }
-.panel-texto-boton p{
+.mensaje-error{
     font-size: 12px;
     margin: 16px 0px;
+    transition: 0.3s;
 }
 .boton{
     font-size: 16px;
@@ -167,6 +168,12 @@ header {
 .invisible{
 	display: none;
 }
+.error{
+    color: red;
+    font-size: 20px;
+    margin: 10px 0px;
+
+}
 @media screen and (max-width:480px){
     main{
         width: auto;
@@ -196,6 +203,18 @@ header {
         height: auto;
         margin: 0 auto 20px auto;
         width: 80%;
+    }
+    .boton:active{
+        transition: 0s;
+        padding: 24px;
+        font-size: 16px;
+    }
+
+    .boton:hover{
+        opacity: 0.9;
+        transition: 0.2s;
+        padding: 24px;
+        font-size: 16px;
     }
     .panel-2{
         width: 90%;
@@ -257,6 +276,18 @@ header {
         height: auto;
         margin: 0 auto 20px auto;
         width: 80%;
+    }
+    .boton:active{
+        transition: 0s;
+        padding: 24px;
+        font-size: 16px;
+    }
+
+    .boton:hover{
+        opacity: 0.9;
+        transition: 0.2s;
+        padding: 24px;
+        font-size: 16px;
     }
     #encriptar {
         margin-right: 10px;
