@@ -5,7 +5,7 @@ El presente proyecto es una pagina web en la que podremos encriptar y desencript
   
 * ***Solo admite texto en minusculas y sin tilde.***
 # Wiki
-Si necesitas saber más sobre la **`codificación`** empleada e **`implementación`** puedes visitar el siguiente enlace:
+Si necesitas saber más sobre la **`codificación`** o **`implementación`** puedes visitar el siguiente enlace:
 
 [**wiki/codificacion-texto**](enlace)
 
