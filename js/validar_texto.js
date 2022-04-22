@@ -1,5 +1,5 @@
 
-var mensaje_error = document.querySelector("#mensaje-error");
+var mensaje_error = document.querySelector(".mensaje-error");
 var valor_T = true;
 function Validar_Texto(texto){
     var i = 0;
@@ -30,8 +30,9 @@ function Validar_Texto(texto){
 }
 
 function error(){
-    var mensaje_error = document.querySelector("#mensaje-error");
+    var mensaje_error = document.querySelector(".mensaje-error");
     mensaje_error.classList.add("error");
+    setTimeout(function(){},300);
 }
 
 function Texto_invalido(){
