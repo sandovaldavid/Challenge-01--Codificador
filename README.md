@@ -9,6 +9,6 @@ Para saber mas sobre:
 * **Encriptación** y **Desencriptación** empleadas:
     * visita el siguiente enlace: [**wiki/encriptación y desencriptación-texto**](https://github.com/sandovaldavid/Challenge-01--Codificador.wiki.git)
 * **Validacion de Texto**:
-  * visita el siguiente enlace: [**wiki/validacion-texto**]([enlace](https://github.com/sandovaldavid/Challenge-01--Codificador.wiki.git))
+  * visita el siguiente enlace: [**wiki/validacion-texto**](https://github.com/sandovaldavid/Challenge-01--Codificador.wiki.git)
 # **Sitio Web**
 Puedes visualizar este proyecto ingresando a [**Challenge-01--Codificador**](https://sandovaldavid.github.io/Challenge-01--Codificador/)
