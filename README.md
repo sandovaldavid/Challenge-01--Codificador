@@ -6,9 +6,9 @@ El presente proyecto es una pagina web en la que podremos codificar y decodifica
 # **Wiki**
 
 Para saber mas sobre:
-* **Codificación** y **Decodificación** empleadas:
-    * visita el siguiente enlace: [**wiki/codificacion-texto**](enlace)
-* **Validacion del Texto**:
-  * visita el siguiente enlace: [**wiki/validacion-texto**](enlace)
+* **Encriptación** y **Desencriptación** empleadas:
+    * visita el siguiente enlace: [**wiki/encriptación y desencriptación-texto**](https://github.com/sandovaldavid/Challenge-01--Codificador.wiki.git)
+* **Validacion de Texto**:
+  * visita el siguiente enlace: [**wiki/validacion-texto**]([enlace](https://github.com/sandovaldavid/Challenge-01--Codificador.wiki.git))
 # **Sitio Web**
 Puedes visualizar este proyecto ingresando a [**Challenge-01--Codificador**](https://sandovaldavid.github.io/Challenge-01--Codificador/)
